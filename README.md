@@ -15,7 +15,7 @@ Follow general guidelines for how to successfully complete this interview:
 1. DO NOT use a backend to generate different pages. This should be a single page.
 1. Create a folder locally for doing your test
 1. The HTML single-page application should be hosted at index.html.
-1. The application should not require any executable. In other words, it should be able to run of a filesystem or apache httpd.
+1. The application should not require any executable. In other words, it should be able to run behind a static web server (like Apache HTTPD).
 1. Download the [data.json](https://github.com/hallmark/testjsfiddleajax/blob/master/data.json) file
 1. Use the data.json file DYNAMICALLY, not as an inline JavaScript object
 1. Use whatever client-side MVC framework you want. If you don't know any, you may use jQuery to do DOM manipulation.
@@ -24,7 +24,7 @@ Follow general guidelines for how to successfully complete this interview:
 1. You may assume that the interviewer is using a modern browser. Do not spend time now with IE compatibility.
 
 Keep in mind that the developers checking your solution must be able to view your application by simply
-unzipping the file and opening your index.html file.
+unzipping the file into an Apache folder and opening your index.html file.
 
 About the Application
 ---------------------
